@@ -6,6 +6,22 @@
             body {
                 background-color: antiquewhite;
             }
+
+            footer {
+                background-color:rgb(238, 159, 132);
+                border-radius: 12px;
+            }
+
+            section {
+                background-color: bisque;
+                border-radius: 12px;
+            }
+
+            #checkout-button {
+                background-color: greenyellow;
+                border-radius: 4px;
+                border-color: darkgreen;
+            }
         </style>
     </head>
     <body>
@@ -13,7 +29,9 @@
             <img 
             id="header-img" 
             src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2faf0266323919.5b120fc7cc47b.png" 
-            width="100%"/>
+            width="100%"
+            style="border-radius: 8px;"
+            />
             <h1>Slime Restaurant</h1>
             <nav>
                 <h2><a href="#menu">Menu</a></h2>
@@ -21,7 +39,7 @@
             </nav>
         </header>
 
-        <main>
+        <main style="text-align: center;">
             <section id="menu">
                 <h2>Menu</h2>
                 <!-- First menu item-->
@@ -79,14 +97,14 @@
                         <textarea cols="50" rows="8"></textarea>
                     </label>
                     <br><br>
-                    <input type="submit" value="Go to Checkout">
+                    <input id="checkout-button" type="submit" value="Go to Checkout">
                 </form>
             </section>
         </main>
 
-        <footer>
-            <p>Made with love by <b>eduuHT</b></p>
+        <footer style="text-align: right;">
             <img src="https://static.wikia.nocookie.net/slimerancher/images/e/e7/FoodFeed.gif">
+            <p>Made with love by <b>@eduuHT</b></p>
         </footer>
     </body>
 </html>
